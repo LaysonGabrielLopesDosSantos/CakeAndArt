@@ -2,6 +2,7 @@ package com.layson.cakeart;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -24,17 +25,17 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
-    public void AtivePerfil() {
+    public void AtivePerfil(View V) {
         Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
         startActivity(intent);
         finish();
     }
-    public void AtiveMore() {
+    public void AtiveMore(View V) {
         Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
         startActivity(intent);
         finish();
     }
-    public void AtiveMain() {
+    public void AtiveMain(View V) {
         Intent intent = new Intent(MainActivity2.this, MainActivity5.class);
         startActivity(intent);
         finish();
