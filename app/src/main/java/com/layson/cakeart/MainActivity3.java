@@ -1,7 +1,9 @@
 package com.layson.cakeart;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,5 +24,17 @@ public class MainActivity3 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void AtivePerfil(View V) {
+        Intent intent = new Intent(MainActivity3.this, MainActivity3.class);
+        startActivity(intent);
+    }
+    public void AtiveMore(View V) {
+        Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
+        startActivity(intent);
+    }
+    public void AtiveMain(View V) {
+        Intent intent = new Intent(MainActivity3.this, MainActivity5.class);
+        startActivity(intent);
     }
 }

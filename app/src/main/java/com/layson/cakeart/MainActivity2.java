@@ -28,17 +28,14 @@ public class MainActivity2 extends AppCompatActivity {
     public void AtivePerfil(View V) {
         Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
         startActivity(intent);
-        finish();
     }
     public void AtiveMore(View V) {
         Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
         startActivity(intent);
-        finish();
     }
     public void AtiveMain(View V) {
         Intent intent = new Intent(MainActivity2.this, MainActivity5.class);
         startActivity(intent);
-        finish();
     }
 
 }
