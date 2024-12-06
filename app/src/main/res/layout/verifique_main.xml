@@ -5,13 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CDCDCD"
     tools:context=".Verifique_Screen">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="373dp"
-        android:layout_height="194dp"
-        android:text="Por favor, coloque o código que foi enviado o email xxxxxx@gmail.com"
+        android:layout_width="321dp"
+        android:layout_height="249dp"
+        android:text="Por favor, coloque o código que foi enviado para o email xxxxxx@gmail.com"
         android:textAlignment="center"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,19 +23,22 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="298dp"
-        android:layout_height="59dp"
+        android:layout_width="272dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#4F2323"
         android:text="xxxxxxx"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="292dp"
         android:layout_height="78dp"
+        android:backgroundTint="#4F2323"
         android:text="Verificar"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

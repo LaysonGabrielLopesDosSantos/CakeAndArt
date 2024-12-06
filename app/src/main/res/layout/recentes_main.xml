@@ -5,16 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CDCDCD"
     tools:context=".Recentes_Screen">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/Recentes"
@@ -25,13 +28,38 @@
                 android:layout_marginBottom="0dp"
                 android:text="Recentes"
                 android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="690dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/posttwo" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="690dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/posttwo" />
         </LinearLayout>
     </ScrollView>
 
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="410dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#4F2323"
+        android:gravity="center_horizontal"
+        app:cornerRadius="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="1sp" />
+
     <ImageView
         android:id="@+id/MoreButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
         android:layout_marginStart="181dp"
         android:layout_marginTop="665dp"
         android:layout_marginEnd="180dp"
@@ -42,12 +70,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/alert_dark_frame" />
+        app:srcCompat="@drawable/more" />
 
     <ImageView
         android:id="@+id/PerfilButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="77dp"
         android:layout_marginStart="250dp"
         android:layout_marginTop="665dp"
         android:layout_marginEnd="50dp"
@@ -58,12 +86,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/alert_dark_frame" />
+        app:srcCompat="@drawable/perfil" />
 
     <ImageView
         android:id="@+id/MainButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="128dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="665dp"
         android:layout_marginEnd="250dp"
@@ -73,6 +101,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/alert_dark_frame" />
+        app:srcCompat="@drawable/housetwo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

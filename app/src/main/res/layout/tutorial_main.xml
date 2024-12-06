@@ -5,7 +5,22 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CDCDCD"
     tools:context=".Tutorial_Screen">
+
+    <ImageView
+        android:id="@+id/Volte"
+        android:layout_width="68dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="325dp"
+        android:layout_marginBottom="650dp"
+        android:clickable="true"
+        android:onClick="AtivePerfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seta" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -23,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#4F2323"
             android:paddingTop="6dp"
             android:text="Como se portar e vestir numa cozinha"
             android:textSize="20sp"
@@ -33,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#4F2323"
             android:text="Como usar ferramentas da cozinha (Básico)"
             android:textSize="20sp"
             app:cornerRadius="0sp" />
@@ -42,6 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#4F2323"
             android:text="Cuidados da cozinha"
             android:textSize="20sp"
             app:cornerRadius="0sp" />
@@ -51,6 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#4F2323"
             android:text="Como usar ferramentas da cozinha (Intermediario)"
             android:textSize="20sp"
             app:cornerRadius="0sp" />
@@ -60,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#4F2323"
             android:text="Higiene na cozinha (Bônus)"
             android:textSize="20sp"
             app:cornerRadius="0sp" />
@@ -69,24 +89,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#4F2323"
             android:text="Como usar ferramentas da cozinha (Avançado)"
             android:textSize="20sp"
             app:cornerRadius="0sp" />
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/Volte"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="325dp"
-        android:layout_marginBottom="650dp"
-        android:clickable="true"
-        android:onClick="AtivePerfil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/alert_dark_frame" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
