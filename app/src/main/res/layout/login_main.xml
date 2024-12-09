@@ -16,6 +16,7 @@
         android:layout_marginBottom="600sp"
         android:fontFamily="@font/aref_ruqaa"
         android:text="Cake & Art"
+        android:textColor="#000000"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,11 +68,12 @@
         tools:srcCompat="@drawable/cakeandart" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Termos"
         android:layout_width="299dp"
         android:layout_height="45dp"
         android:text="Ao se cadastrar, você concorda com os termos de usuário"
         android:textAlignment="center"
+        android:textColor="#353535"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

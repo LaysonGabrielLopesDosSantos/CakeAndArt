@@ -80,6 +80,7 @@
             android:fontFamily="sans-serif"
             android:text="Cadastro"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="50sp" />
 
         <TextView
@@ -89,6 +90,7 @@
             android:layout_marginTop="25sp"
             android:text="Nome"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
@@ -103,6 +105,7 @@
             android:singleLine="false"
             android:text="xxxxx"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="25sp" />
 
         <TextView
@@ -112,6 +115,7 @@
             android:layout_marginTop="25sp"
             android:text="Sobrenome"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
@@ -124,6 +128,7 @@
             android:inputType="text"
             android:text="xxxxx"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="25sp" />
 
         <TextView
@@ -133,6 +138,7 @@
             android:layout_marginTop="25sp"
             android:text="Data de nascimento"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
@@ -145,6 +151,7 @@
             android:inputType="date"
             android:text="xxxxx"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="25sp" />
 
         <TextView
@@ -154,6 +161,7 @@
             android:layout_marginTop="25sp"
             android:text="Email"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
@@ -166,6 +174,7 @@
             android:inputType="textEmailAddress"
             android:text="xxxxx"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="25sp" />
 
         <TextView
@@ -175,6 +184,7 @@
             android:layout_marginTop="25sp"
             android:text="Senha"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <EditText
@@ -187,6 +197,7 @@
             android:inputType="textPassword"
             android:text="xxxxx"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="25sp" />
 
         <Button
@@ -197,7 +208,7 @@
             android:layout_marginTop="50sp"
             android:backgroundTint="#4F2323"
             android:text="Continuar"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
     </LinearLayout>
